@@ -20,6 +20,10 @@ class PersonalSite
     render_view('about.html')
   end
 
+  def self.blog
+    render_view('blog.html')
+  end
+
   def self.error
     render_view('error.html', '404')
   end
