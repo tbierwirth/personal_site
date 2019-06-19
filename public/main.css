@@ -1,3 +1,28 @@
-body {
-  background-color: blue;
+.header {
+  color: white;
+  padding: 10px 10px 10px 20px;
+  font-size: 25px;
+  background-color: DarkOrange;
+}
+
+.left {
+  text-align: left
+}
+
+.right {
+  text-align: right
+}
+
+.menu {
+  color: white;
+  padding: 10px 20px 10px 10px;
+  font-size: 20px;
+  background-color: DimGrey;
+}
+a:link {
+  color: white
+}
+
+a:visited {
+  color: white
 }
